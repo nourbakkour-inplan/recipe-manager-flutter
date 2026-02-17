@@ -1,0 +1,11 @@
+{
+  "name": "Recipe Manager",
+  "short_name": "Recipes",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#4CAF50",
+  "description": "A complete Recipe Management System with AI features.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+}

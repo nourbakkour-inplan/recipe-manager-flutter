@@ -1,0 +1,1 @@
+ D:\\RecipeManager\\build\\web\\manifest.json:  D:\\RecipeManager\\web\\index.html D:\\RecipeManager\\web\\manifest.json
