@@ -2,6 +2,8 @@
 
 A cross-platform Recipe Management System built entirely using AI-assisted development (Claude).
 
+**Live Demo:** https://web-phi-eight-88.vercel.app
+
 This application runs fully in the browser (Flutter Web) and includes:
 - Multi-user authentication
 - Full CRUD functionality
@@ -33,7 +35,31 @@ This application runs fully in the browser (Flutter Web) and includes:
 | AI          | Local algorithmic (no external API)  |
 | Target      | Web (Chrome, Firefox, Safari, Edge)  |
 
-## Quick Start
+## Live Testing
+
+The app is deployed and ready to use — no installation required:
+
+1. Open https://web-phi-eight-88.vercel.app in any modern browser
+2. Log in with a demo account or register a new one:
+
+| Username | Password   |
+|----------|------------|
+| alice    | pass1234   |
+| bob      | pass1234   |
+
+3. Each demo account comes with pre-loaded sample recipes
+4. Try the features:
+   - **Search & filter** — type in the search bar, use the cuisine/difficulty/status dropdowns
+   - **Create a recipe** — tap "+ New Recipe", fill in the form
+   - **AI: Auto-detect cuisine** — click the "Auto-detect" button next to the Cuisine field
+   - **AI: Suggest ingredients** — click the lightbulb icon next to Ingredients
+   - **AI: Auto-tag** — click "Auto-tag" in the Tags section
+   - **AI: Find similar** — open a recipe detail, click "Find Similar Recipes"
+   - **Status tagging** — mark recipes as Favorite, To Try, or Made Before
+
+> **Note:** Data is stored in your browser's IndexedDB. Each browser/device has its own independent data. Clearing browser data resets everything (demo data re-seeds automatically).
+
+## Local Development
 
 ### Prerequisites
 
@@ -47,17 +73,6 @@ cd RecipeManager
 flutter pub get
 flutter run -d chrome
 ```
-
-### Demo Accounts
-
-The app seeds two test users on first run:
-
-| Username | Password   |
-|----------|------------|
-| alice    | pass1234   |
-| bob      | pass1234   |
-
-Each comes with pre-loaded sample recipes.
 
 ## Build for Production
 
